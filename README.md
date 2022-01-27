@@ -41,3 +41,7 @@ I want to be able to add a tag (only one tag) to a note
 As an office worker
 So I can find notes on a certain topic
 I want to be able to search for all the notes with a specific tag
+
+COMMENTS
+
+Bad aspect - currently need to add the entire note object to notebook. Would be better if it were just the note text. This requires injection and remodelling tests, which is not the point of this exercise though
