@@ -8,4 +8,7 @@ class Notebook
   def list_notes
     @notes.map { |x| x.content }.join("; ")
   end
+  def add_tag(note_index, tag)
+    @notes[note_index].add_tag(tag)
+  end
 end
